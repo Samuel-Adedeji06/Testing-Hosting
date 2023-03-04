@@ -1,0 +1,186 @@
+.grid-container {
+    background-color: white;
+    display: grid;
+    font-size: 25px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0px 10px 20px;
+    justify-content: space-around;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap: 50%;
+}
+
+button {
+    color: white;
+    background-color: rgb(21, 181, 235);
+    border-color: lightblue;
+    margin-left: 240px;
+    padding: 10px;
+}
+button:hover {
+    background-color: blue;
+}
+.yellow {
+    background-color: #ff7700;
+    border: 1px solid yellow;
+    font-family: system-ui,  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 0px 10px 10px;
+}
+a {
+    color: white;
+}
+.grid-contain {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: end;
+}
+h1 {
+    font-family:  sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 44px;
+}
+.para {
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 20px;
+}
+.div1 {
+    padding: 10px 0px 0px 70px;
+}
+.container {
+    position: relative;
+    /* border: 2px solid red; */
+    /* width: 200px; */
+    /* height: 200px; */
+}
+.contain {
+    position: absolute;
+    border: 2px solid blue;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    top: 350px;
+    left: -30px;
+    
+}
+/* .img {
+    position: absolute;
+} */
+.grid-co {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    height: 100%;
+    padding: 10px;
+    justify-content: space-around;
+    align-content: space-between;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.grid-item {
+    background-color: white;
+    margin: 50px 10px 0px 10px;
+    border: 1px solid white;
+    height: 400px;
+    width: 220px;
+    column-gap: 50px;
+    padding: 0px 20px 0px 20px;
+    font-family: sans-serif;
+}
+.para1 {
+    font-size: 16px ;
+}
+h3 {
+    font-size: 23.2px;
+}
+.image {
+    width: 70px;
+    height: 60px;
+}
+.gridco {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    column-gap: 50px;
+    row-gap: 50px;
+    height: 100%;
+    background-color: white;
+
+}
+.grid-iteme {
+    background-color: white;
+    border: 1px solid black;
+    height: 100%;
+    width: 1300px;
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    
+}
+#span {
+    border-bottom: 1px solid grey;
+    display: block;
+}
+.you {
+    padding: 20px 0px 0px 100px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 24px;
+    font-weight: 400;
+}
+.last {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    row-gap: 20px;
+    column-gap: 50px;
+    background-color: white;
+    padding: 10px;
+    height: 100%;
+}
+.grid {
+    background-color: lightgray;
+    justify-content: space-around;
+    align-content: center;
+    width: 200px;
+    margin: 20px 0px 0px 120px;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    padding: 12px;
+    box-shadow: 2px 2px 5px black;
+}
+.allee {
+    background-color: lightgrey;
+    padding-top: -30px;
+}
+.alle {
+    background-color: lightgrey;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    row-gap: 30px;
+    column-gap: 30px;
+    padding: 20px;
+    margin: 10px 0px 10px 100px;
+    display: grid;
+
+}
+.alls {
+    background-color: lightgrey;
+    /* height: 100%; */
+    text-align: center;
+}
+.hthree {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: black;
+    justify-content: center;
+}
